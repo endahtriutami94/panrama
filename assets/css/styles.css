@@ -85,6 +85,36 @@
 .about-us-box .top, .about-us-box .bottom {
   min-height: 112px;
 }
+.join-our-team .form-group {
+  margin-bottom: 1.2rem;
+}
+.join-our-team .form-control {
+  border-radius: 0;
+}
+.join-our-team .join-our-team-img {
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url('../images/joinOurTeam/img1.png');
+  background-size: auto;
+  background-position: -92px;
+  height: 443px;
+}
+.join-our-team .custom-file-upload {
+  border: 1px solid #95989a;
+  display: inline-block;
+  padding: 18px 12px;
+  cursor: pointer;
+  background: #28406d;
+  color: #fff;
+  border-radius: 4px;
+}
+.join-our-team input[type="file"] {
+  display: none;
+}
+.join-our-team .btn-primary {
+  height: 63px;
+  width: 121px;
+}
 .bg-blue {
   background: #a1cde6;
 }
@@ -113,6 +143,9 @@
 .bg-dark-blue {
   background: #28406d;
   color: #fff;
+}
+.bg-grey {
+  background: #f3f3f3;
 }
 .btn-primary {
   background: #28406d;

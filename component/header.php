@@ -39,7 +39,7 @@
           <a class="nav-link" href="#">CSR</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="#">Join Our Team</a>
+          <a class="nav-link" href="joinOurTeam.php">Join Our Team</a>
         </li>
         <li class="nav-item w-lg-item-96">
           <a class="nav-link" href="#">Contact Us</a>

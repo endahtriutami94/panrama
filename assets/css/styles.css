@@ -115,6 +115,14 @@
   height: 63px;
   width: 121px;
 }
+.our-factories .banner-our-factories {
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url('../images/ourFactories/img1.png');
+  background-size: auto;
+  background-position: -350px;
+  height: 314px;
+}
 .bg-blue {
   background: #a1cde6;
 }

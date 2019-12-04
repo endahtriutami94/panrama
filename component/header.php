@@ -30,7 +30,7 @@
           <a class="nav-link" href="about.php">About Us</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="#">Our Factories</a>
+          <a class="nav-link" href="ourFactories.php">Our Factories</a>
         </li>
         <li class="nav-item w-lg-item-96">
           <a class="nav-link" href="#">Our Products</a>

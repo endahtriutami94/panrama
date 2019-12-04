@@ -123,6 +123,17 @@
   background-position: -350px;
   height: 314px;
 }
+.csr .banner-csr {
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url('../images/csr/img1.png');
+  background-size: auto;
+  background-position: -350px;
+  height: 314px;
+}
+.csr .csr-box {
+  box-shadow: -1px 1px 8px -1px #707070;
+}
 .bg-blue {
   background: #a1cde6;
 }

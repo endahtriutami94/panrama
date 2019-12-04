@@ -36,7 +36,7 @@
           <a class="nav-link" href="#">Our Products</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="#">CSR</a>
+          <a class="nav-link" href="csr.php">CSR</a>
         </li>
         <li class="nav-item w-lg-item-96">
           <a class="nav-link" href="joinOurTeam.php">Join Our Team</a>

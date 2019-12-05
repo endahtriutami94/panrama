@@ -8,7 +8,9 @@
 
 
   <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/swiper.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+
   <script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
   
 </head>
@@ -33,7 +35,7 @@
           <a class="nav-link" href="ourFactories.php">Our Factories</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="#">Our Products</a>
+          <a class="nav-link" href="ourProducts.php">Our Products</a>
         </li>
         <li class="nav-item w-lg-item-96">
           <a class="nav-link" href="csr.php">CSR</a>
@@ -42,7 +44,7 @@
           <a class="nav-link" href="joinOurTeam.php">Join Our Team</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="contactUs.php">Contact Us</a>
         </li>
       </ul>
     </div>

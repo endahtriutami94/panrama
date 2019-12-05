@@ -27,7 +27,7 @@
         <div class="col">
           <form>
             <div class="form-group">
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name *" required>
+              <input type="text" class="form-control" placeholder="Full Name *" required>
             </div>
             
             <div class="form-group">

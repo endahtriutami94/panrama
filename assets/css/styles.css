@@ -134,6 +134,33 @@
 .csr .csr-box {
   box-shadow: -1px 1px 8px -1px #707070;
 }
+.our-products .swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.our-products .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.our-products .gallery-top {
+  height: 80%;
+  width: 100%;
+}
+.our-products .gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.our-products .gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.our-products .gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
 .bg-blue {
   background: #a1cde6;
 }

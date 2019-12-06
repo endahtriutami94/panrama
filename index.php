@@ -110,7 +110,7 @@
         <div class="col-md-3 pb-3 pb-lg-0">
           <div class="icon ic-years-business"></div>
           <div class="icon-desc">
-            <p>35+</p>
+            <p class="count">35</p>
             <p>Years in Business</p>
           </div>
         </div>
@@ -118,7 +118,7 @@
         <div class="col-md-3 pb-3 pb-lg-0">
           <div class="icon ic-sewing-machines"></div>
           <div class="icon-desc">
-            <p>900+</p>
+            <p class="count">900</p>
             <p>Sewing Machines</p>
           </div>
         </div>
@@ -126,7 +126,7 @@
         <div class="col-md-3 pb-3 pb-lg-0">
           <div class="icon ic-employes"></div>
           <div class="icon-desc">
-            <p>1800+</p>
+            <p class="count">1800</p>
             <p>Employees</p>
           </div>
         </div>
@@ -134,7 +134,7 @@
         <div class="col-md-3">
           <div class="icon ic-capacity"></div>
           <div class="icon-desc">
-            <p>350,000+</p>
+            <p class="count">350000</p>
             <p>Monthly Capacity</p>
           </div>
         </div>
@@ -257,12 +257,31 @@
           <i class="underline"></i>
         </div>
         <div class="p-2 pl-5">
-          <a href="./contact-us" class="btn btn-primary mb-md-0 mb-2">Contact Us</a>
+          <a href="./contactUs.php" class="btn btn-primary mb-md-0 mb-2">Contact Us</a>
         </div>
       </div>
       
     </div>
   </div>
   <!-- End Get in Touch -->
+
+  <script>
+  $('.count').each(function() {
+    var $this = $(this);
+    jQuery({Counter: 0}).animate({Counter: $this.text()}, {
+      duration: 1500,
+      easing: 'swing',
+      step: function() {
+          var num = Math.ceil(this.Counter).toString();
+          if(Number(num) > 999){
+            while (/(\d+)(\d{3})/.test(num)) {
+              num = num.replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+            }
+          }
+        $this.text(num+'+');
+      }
+    });
+    });
+</script>
 <?php include('component/footer.php') ?>
   

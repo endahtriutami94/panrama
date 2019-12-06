@@ -4,16 +4,16 @@
     <div class="row">
       <div class="col-md-4">
         <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Our Factories</a></li>
-          <li><a href="#">Products</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li><a href="ourFactories.php">Our Factories</a></li>
+          <li><a href="ourProducts.php">Products</a></li>
         </ul>
       </div>
       <div class="col-md-4">
         <ul>
-          <li><a href="#">CSR</a></li>
-          <li><a href="#">Join Our Team</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="csr.php">CSR</a></li>
+          <li><a href="joinOurTeam.php">Join Our Team</a></li>
+          <li><a href="contactUs.php">Contact Us</a></li>
         </ul>
       </div>
       <div class="col-md-4">

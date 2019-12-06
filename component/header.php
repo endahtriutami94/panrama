@@ -15,13 +15,21 @@
   <script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
   
 </head>
+
+<script>
+  $(document).ready(function () {
+    $('.third-button').on('click', function () {
+      $('.animated-icon3').toggleClass('open');
+    });
+  });
+</script>
 <body>
 <!-- start nav menus -->
-<nav class="navbar navbar-light header">
+<nav class="navbar navbar-dark header">
   <div class="container">
     <a class="navbar-brand" href="#">PT. Pan Rama Vista Garment Industries</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon3"><span></span><span></span><span></span></div>
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">

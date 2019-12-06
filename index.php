@@ -228,7 +228,7 @@
           pride in being considered the “go-to” factory in Indonesia for fine 
           Ladies Fashionwear. 
         </div>
-        <a href="./about-us" class="btn btn-primary mb-md-0 mb-2">Read More</a>
+        <a href="./about.php" class="btn btn-primary mb-md-0 mb-2">Read More</a>
       </div>
     </div>
     

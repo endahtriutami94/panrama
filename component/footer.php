@@ -32,7 +32,8 @@
 </body>
 
 <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="./assets/js/swiper.min.js"></script>
+<!-- <script type="text/javascript" src="./assets/js/swiper.min.js"></script> -->
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 <script>
   var galleryThumbs = new Swiper('.gallery-thumbs', {
     spaceBetween: 10,

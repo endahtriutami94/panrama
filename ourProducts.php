@@ -6,7 +6,7 @@
   <div class="container">
     <div class="d-flex justify-content-around my-5">
       <div class="d-flex flex-column">
-        <p class="text-blue">Woven Fabrications</p>
+        <p class="text-blue mb-0">Woven Fabrications</p>
         <ul>
           <li>Poly Sheers, Georgettes, CDC, Shantungs, Suitings</li>
           <li>Cotton Poplins, Sateens & Jacquards, Twills & Voiles</li>
@@ -16,7 +16,7 @@
       </div>
 
       <div class="d-flex flex-column">
-        <p class="text-blue">Knit Fabrications</p>
+        <p class="text-blue mb-0">Knit Fabrications</p>
         <ul>
           <li>Poly-Spandex ITY, DTY, Scuba, Scuba-crepe, Novelties & Laces</li>
           <li>Poly/Rayon Pontes, Hachi (Sweater Knit), Jacquards</li>
@@ -84,7 +84,7 @@
       </div>
     </div>
 
-    <div class="my-4">
+    <div class="mb-4 mt-5">
       <h1 class="text-title text-center mb-4">Dresses</h1>
       <div class="swiper-container gallery-top">
         <div class="swiper-wrapper">
@@ -183,7 +183,7 @@
       </div>
     </div>
     
-    <div class="my-4">
+    <div class="mt-4 mb-5">
       <h1 class="text-title text-center mb-4">Jumpsuits</h1>
       <div class="swiper-container gallery-top">
         <div class="swiper-wrapper">

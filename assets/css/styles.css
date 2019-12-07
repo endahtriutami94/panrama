@@ -6,6 +6,10 @@
   font-family: Lato-Black;
   src: url(../fonts/Lato-Black.ttf);
 }
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/Lato-Bold.ttf);
+}
 body {
   font-family: Lato;
 }
@@ -113,6 +117,10 @@ body {
 .text-title {
   font-size: 40px;
   color: #23497e;
+  font-family: Lato-Black;
+}
+.text-title span {
+  font-family: Lato;
 }
 .text-blue {
   color: #22477b;
@@ -158,10 +166,12 @@ body {
 .counting .icon-desc p:first-child {
   color: #22477b;
   font-size: 40px;
+  font-family: Lato-Black;
 }
 .counting .icon-desc p:last-child {
   color: #000;
   font-size: 20px;
+  font-family: Lato-Bold;
 }
 .banner-about {
   display: block;
@@ -172,6 +182,12 @@ body {
 }
 .about-us-box .border-box {
   box-shadow: 1px 2px 5px -1px #707070;
+}
+.about-us-box .content {
+  font-family: Lato;
+}
+.about-us-box .directors-box p:nth-child(2) {
+  font-family: Lato-Bold;
 }
 .about-us-box .top img {
   max-width: 50px;
@@ -217,6 +233,23 @@ body {
   background-position: -350px;
   height: 314px;
 }
+.our-factories .video-box {
+  width: calc(100% - 591px);
+  height: 389px;
+}
+.our-factories .count {
+  width: 591px;
+  height: 85px;
+}
+.our-factories .text-title {
+  color: #a1cde6;
+}
+.our-factories .underline {
+  border-color: #a1cde6;
+}
+.our-factories .custom-width-factories {
+  width: 446px;
+}
 .csr .banner-csr {
   display: block;
   background-repeat: no-repeat;
@@ -227,6 +260,10 @@ body {
 }
 .csr .csr-box {
   box-shadow: -1px 1px 8px -1px #707070;
+  min-width: 575px;
+}
+.csr .bg-dark-blue {
+  min-width: 188px;
 }
 .our-products .banner-our-products {
   display: block;
@@ -246,6 +283,7 @@ body {
 }
 .our-products .text-blue {
   font-size: 20px;
+  font-family: Lato-Black;
 }
 .our-products .text-title {
   font-family: Lato-Black;

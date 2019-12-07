@@ -8,8 +8,8 @@
 
 
   <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" type="text/css" href="./assets/css/swiper.min.css"> -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/swiper.min.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> -->
   <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 
   <script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>

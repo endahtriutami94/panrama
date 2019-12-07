@@ -4,10 +4,10 @@
 
     <!-- Start About Us -->
     <div class="container pt-5">
-      <h1 class="text-title">About Us</h1>
-      <i class="underline"></i>
+      <h1 class="text-title text-center">About <span>Us</span></h1>
+      <i class="underline text-center mx-auto my-0"></i>
 
-      <div class="content pt-4">
+      <div class="content pt-5">
         <p>
           Established in 1984 in Jakarta, PT. Pan Rama is engaged in the manufacturing and export of ladies’ fashion apparel to the United States, Europe and Australia.  In 
           1998, Pan Rama were pioneers in relocating our production base to Central Java, which has now become a strategic manufacturing hub.  Located in Solo, often 
@@ -36,11 +36,11 @@
     <!-- End About Us -->
 
     <!-- Start Core Values -->
-    <div class="container">
-      <h1 class="text-title">Core Values</h1>
-      <i class="underline"></i>
+    <div class="container mt-5">
+      <h1 class="text-title text-center">Core <span>Values</span></h1>
+      <i class="underline text-center mx-auto my-0"></i>
 
-      <div class="row my-4">
+      <div class="row my-5">
         <div class="col-md-4">
           <div class="mb-4 border-box">
             <div class="top bg-dark-blue d-flex p-4 align-items-center">
@@ -131,10 +131,10 @@
 
     <!-- Start Directors -->
     <div class="container mb-5">
-      <h1 class="text-title">Directors</h1>
-      <i class="underline"></i>
+      <h1 class="text-title text-center">Directors</h1>
+      <i class="underline text-center mx-auto my-0"></i>
 
-      <p class="mt-4">
+      <p class="mt-5">
         Operating as a family business in its second generation, Pan Rama is constantly renewing it’s commitment to this industry.  
         With a dynamic & progressive management team at it’s helm, the company aspires to be an industry leader, continuously 
         striving to be best in its class
@@ -143,19 +143,19 @@
       <div class="d-flex">
         <div class="directors-box">
           <img src="assets/images/about/directors1.png" width="100%" />
-          <p class="m-0">Pishu R. Vasandani (Piet Wijaya)</p>
+          <p class="mb-0 mt-3">Pishu R. Vasandani (Piet Wijaya)</p>
           <p class="m-0">Founder & Chairman</p>
         </div>
 
         <div class="directors-box mx-5">
           <img src="assets/images/about/directors2.png" width="100%" />
-          <p class="m-0">Ravi Vasandani</p>
+          <p class="mb-0 mt-3">Ravi Vasandani</p>
           <p class="m-0">CEO & Commissioner</p>
         </div>
 
         <div class="directors-box">
           <img src="assets/images/about/directors3.png" width="100%" />
-          <p class="m-0">Sunil G. Samtani</p>
+          <p class="mb-0 mt-3">Sunil G. Samtani</p>
           <p class="m-0">Director - Operations & Manufacturing</p>
         </div>
       </div>

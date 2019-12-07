@@ -4,33 +4,34 @@
 
   <div class="container my-5">
     <div class="d-flex">
-      <div class="mr-5">
-        <img src="assets/images/ourFactories/video1.png" width="100%" />
+      <div class="mr-5 video-box">
+      <!-- <iframe width="100%" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+        <img src="assets/images/ourFactories/video1.png" width="100%" height="100%" />
       </div>
       <div class="d-flex flex-column">
-        <div class="d-flex bg-dark-blue align-items-center p-4 mb-3">
-          <div class="icon mr-5">
+        <div class="d-flex bg-dark-blue align-items-center p-4 mb-3 count">
+          <div class="icon mx-5">
             <img src="assets/images/ourFactories/icon1.png" width="100%" />
           </div>
           <div class="desc">35+ Years in Business</div>
         </div>
 
-        <div class="d-flex bg-dark-blue align-items-center p-4 mb-3">
-          <div class="icon mr-5">
+        <div class="d-flex bg-dark-blue align-items-center p-4 mb-3 count">
+          <div class="icon mx-5">
             <img src="assets/images/ourFactories/icon2.png" width="100%" />
           </div>
           <div class="desc">900+ Sewing Machines</div>
         </div>
 
-        <div class="d-flex bg-dark-blue align-items-center p-4 mb-3">
-          <div class="icon mr-5">
+        <div class="d-flex bg-dark-blue align-items-center p-4 mb-3 count">
+          <div class="icon mx-5">
             <img src="assets/images/ourFactories/icon3.png" width="100%" />
           </div>
           <div class="desc">1800+ Employees</div>
         </div>
 
-        <div class="d-flex bg-dark-blue align-items-center p-4 mb-3">
-          <div class="icon mr-5">
+        <div class="d-flex bg-dark-blue align-items-center p-4 mb-3 count">
+          <div class="icon mx-5">
             <img src="assets/images/ourFactories/icon4.png" width="100%" />
           </div>
           <div class="desc">350,000+ Monthly Capacity</div>
@@ -50,7 +51,7 @@
 
   <div class="bg-grey">
     <div class="container py-5">
-      <div class="d-flex">
+      <div class="d-flex py-4">
         <div class="d-flex flex-column mr-4">
           <img src="assets/images/ourFactories/fac-img1.png" width="100%" class="mb-3" />
           <img src="assets/images/ourFactories/fac-img3.png" width="100%" />
@@ -59,9 +60,9 @@
           <img src="assets/images/ourFactories/fac-img2.png" width="100%" class="mb-3" />
           <img src="assets/images/ourFactories/fac-img4.png" width="100%" />
         </div>
-        <div class="d-flex flex-column justify-content-around bg-dark-blue p-4">
+        <div class="d-flex flex-column justify-content-around bg-dark-blue p-4 custom-width-factories">
           <div class="title-box">
-            <h1 class="text-title">Factory 1 (PRV 1) Sukoharjo, Solo</h1>   
+            <h1 class="text-title">Factory 1 (PRV 1) <span>Sukoharjo, Solo<span></h1>   
             <i class="underline"></i>
           </div>
           <div class="d-flex flex-column">
@@ -77,10 +78,10 @@
   </div>
 
   <div class="container py-5">
-    <div class="d-flex">
-      <div class="d-flex flex-column justify-content-around bg-dark-blue p-4 mr-4">
+    <div class="d-flex pt-4">
+      <div class="d-flex flex-column justify-content-around bg-dark-blue custom-width-factories p-4 mr-4">
         <div class="title-box">
-          <h1 class="text-title">Factory 2 (PRV 2) Karanganyar, Solo</h1>   
+          <h1 class="text-title">Factory 2 (PRV 2) <span>Karanganyar, Solo</span></h1>   
           <i class="underline"></i>
         </div>
         <div class="d-flex flex-column">
@@ -123,7 +124,7 @@
 
   <div class="bg-grey">
     <div class="container py-5">
-      <div class="d-flex">
+      <div class="d-flex py-4">
         <div class="d-flex flex-column mr-4">
           <img src="assets/images/ourFactories/fac-img1.png" width="100%" class="mb-3" />
           <img src="assets/images/ourFactories/fac-img3.png" width="100%" />
@@ -132,9 +133,9 @@
           <img src="assets/images/ourFactories/fac-img2.png" width="100%" class="mb-3" />
           <img src="assets/images/ourFactories/fac-img4.png" width="100%" />
         </div>
-        <div class="d-flex flex-column justify-content-around bg-dark-blue p-4">
+        <div class="d-flex flex-column justify-content-around bg-dark-blue p-4 custom-width-factories">
           <div class="title-box">
-            <h1 class="text-title">Marketing Office Jakarta</h1>   
+            <h1 class="text-title">Marketing Office <span>Jakarta</span></h1>   
             <i class="underline"></i>
           </div>
           <div class="d-flex flex-column">

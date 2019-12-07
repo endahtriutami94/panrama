@@ -1,5 +1,5 @@
 <?php include('component/header.php') ?>
-<div class="join-our-team">
+<div class="join-our-team mt-5">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 pl-0"><div class="join-our-team-img"></div></div>

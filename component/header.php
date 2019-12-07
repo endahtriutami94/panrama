@@ -25,9 +25,12 @@
 </script>
 <body>
 <!-- start nav menus -->
-<nav class="navbar navbar-dark header">
+<nav class="navbar fixed-top navbar-dark header">
   <div class="container">
-    <a class="navbar-brand" href="#">PT. Pan Rama Vista Garment Industries</a>
+    <a class="navbar-brand" href="#">
+      <!-- <img src="assets/images/logopanarama.png" /> -->
+      PT. Pan Rama Vista Garment Industries
+    </a>
     <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <div class="animated-icon3"><span></span><span></span><span></span></div>
     </button>

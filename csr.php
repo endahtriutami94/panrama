@@ -1,8 +1,15 @@
 <?php include('component/header.php') ?>
 
-<div class="csr">
-  <div class="banner-csr"></div>
-
+<div class="csr mt-5">
+  <div class="banner-csr">
+    <div class="container d-flex align-items-center">
+      <div class="ml-md-auto w-25 pb-3 pt-5 mr-5">
+        <p class="text-title text-right mr-5">CSR</p>
+        <i class="underline text-right my-0 ml-auto mr-5"></i>
+      </div>
+    </div>
+  </div>
+  
   <div class="container my-5">
     <h1 class="text-title text-center">Sustainability</h1>
     <div class="text-center my-5">

@@ -1,7 +1,14 @@
 <?php include('component/header.php') ?>
 
-<div class="our-products">
-  <div class="banner-our-products"></div>
+<div class="our-products mt-5">
+  <div class="banner-our-products">
+    <div class="container d-flex align-items-center">
+      <div class="ml-md-auto w-25 pb-3 pt-5 mr-5">
+        <p class="text-title text-right mr-5">Our<br><span>Products</span></p>
+        <i class="underline text-right my-0 ml-auto mr-5"></i>
+      </div>
+    </div>
+  </div>
 
   <div class="container">
     <div class="d-flex justify-content-around my-5">

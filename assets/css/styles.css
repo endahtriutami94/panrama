@@ -62,7 +62,7 @@ body {
   -moz-transition: 0.25s ease-in-out;
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-  background: #f3e5f5;
+  background: #fff;
 }
 .header .animated-icon3 span:nth-child(1) {
   top: 0px;
@@ -124,6 +124,31 @@ body {
 }
 .text-blue {
   color: #22477b;
+}
+.home .swiper-container {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.home .gallery-top {
+  height: 546px;
+}
+.home .gallery-thumbs {
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.home .gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.home .gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
 }
 .about-us {
   display: block;

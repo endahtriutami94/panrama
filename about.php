@@ -1,5 +1,5 @@
 <?php include('component/header.php') ?>
-  <div class="about-us-box">
+  <div class="about-us-box mt-5">
     <div class="banner-about"></div>
 
     <!-- Start About Us -->

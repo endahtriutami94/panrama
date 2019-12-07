@@ -18,9 +18,9 @@
       </div>
       <div class="col-md-4">
         <ul class=" d-flex flex-row justify-content-end pt-3">
-          <li><a href="#"><img src="assets/images/whatsapp.png" /></a></li>
-          <li class="px-4"><a href="#"><img src="assets/images/youtube.png" /></a></li>
-          <li><a href="#"><img src="assets/images/instagram.png" /></a></li>
+          <li><a href="https://www.instagram.com"><img src="assets/images/whatsapp.png" /></a></li>
+          <li class="px-4"><a href="https://www.youtube.com"><img src="assets/images/youtube.png" /></a></li>
+          <li><a href="https://www.instagram.com"><img src="assets/images/instagram.png" /></a></li>
         </ul>
       </div>
     </div>

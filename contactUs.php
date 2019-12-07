@@ -2,10 +2,10 @@
 
 <div class="contact-us container">
   <div class="d-flex align-items-center my-5">
-    <div class="mr-5"><img src="assets/images/contactUs/img1.png" width="731px" height="637px" /></div>
+    <div class="mr-5"><img src="assets/images/contactUs/img1.png" width="631px" height="537px" /></div>
 
-    <div class="w-50">
-      <h1 class="text-title">Contact Us</h1>
+    <div class="custom-width-contact">
+      <h1 class="text-title mb-4">Contact <span>Us</span></h1>
 
       <form>
         <div class="form-group">
@@ -35,37 +35,48 @@
   </div>
 
   <div>
-    <h1 class="text-title">Our Locations</h1>
-    <i class="underline"></i>
-
-    <div class="d-flex justify-content-center mb-3 bg-dark-blue">
-      <div class="d-flex flex-column">
+    <div class="mb-5">
+      <h1 class="text-title text-center">Our <span>Locations</span></h1>
+      <i class="underline text-center my-0 mx-auto"></i>
+    </div>
+  
+    <div class="d-flex justify-content-center mb-3 locations">
+      <div class="d-flex flex-column bg-dark-blue">
         <img src="assets/images/contactUs/map.png" width="100%" />
-          <div class="p-4">
-            <p>PT. Pan Rama Vista Garment Industries</p>
-            <p>Marketing Office (Jakarta) :</p>
+          <div class="p-4 content-locations">
+            <p class="locations-title mb-3">PT. Pan Rama Vista Garment Industries<br>Marketing Office (Jakarta) :</p>
 
-            <p>JL. Bisma Raya Blok A No.70</p>
-            <p>Sunter Agung Podomoro</p>
-            <p>Jakarta Utara 14350 – Indonesia</p>
+            <p class="mb-3">JL. Bisma Raya Blok A No.70<br>Sunter Agung Podomoro<br>Jakarta Utara 14350 – Indonesia</p>
 
-            <p>Telp   : (62-21) 6503510</p>
-            <p>Fax    : (62-21) 6503511</p>
-            <p>Email : jkt@panrama.com</p>
+            <p class="mb-3">
+              <span>Telp</span>: (62-21) 6503510<br>
+              <span>Fax</span>: (62-21) 6503511<br>
+              <span>Email</span>: jkt@panrama.com
+            </p>
+
+            <div class="d-flex map-link-box">
+              <img src="assets/images/contactUs/icon-map.png" height="20px" />
+              <a href="https://www.google.com/maps" class="ml-2 map-link">Find on Google Maps</a>
+            </div>
           </div>
       </div>
 
       <div class="mx-3">
         <div class="d-flex flex-column bg-dark-blue">
           <img src="assets/images/contactUs/map.png" width="100%" />
-          <div class="p-4">
-            <p>Factory 1 (PRV 1) :</p>
+          <div class="p-4 content-locations">
+            <p class="locations-title mb-3">Factory 1 (PRV 1) :</p>
 
-            <p>Dukuh Pinggir RT05 RW07</p>
-            <p>Desa Telukan, Kecamatan Grogol</p>
-            <p>Sukoharjo 57552, Solo – Indonesia</p>
+            <p class="mb-3">Dukuh Pinggir RT05 RW07<br>Desa Telukan, Kecamatan Grogol<br>Sukoharjo 57552, Solo – Indonesia</p>
 
-            <p>Telp : (62-271) 624301 / 624302</p>
+            <p class="mb-3">
+              <span>Telp</span>: (62-271) 624301 / 624302
+            </p>
+
+            <div class="d-flex map-link-box">
+              <img src="assets/images/contactUs/icon-map.png" height="20px" />
+              <a href="https://www.google.com/maps" class="ml-2 map-link">Find on Google Maps</a>
+            </div>
           </div>
         </div>
       </div>
@@ -74,14 +85,17 @@
 
       <div class="d-flex flex-column bg-dark-blue">
         <img src="assets/images/contactUs/map.png" width="100%" />
-          <div class="p-4">
-            <p>Factory 1 (PRV 1) :</p>
+          <div class="p-4 content-locations">
+            <p class="locations-title mb-3">Factory 1 (PRV 1) :</p>
 
-            <p>Dukuh Pinggir RT05 RW07</p>
-            <p>Desa Telukan, Kecamatan Grogol</p>
-            <p>Sukoharjo 57552, Solo – Indonesia</p>
+            <p class="mb-3">Dukuh Pinggir RT05 RW07<br>Desa Telukan, Kecamatan Grogol<br>Sukoharjo 57552, Solo – Indonesia</p>
 
-            <p>Telp : (62-271) 624301 / 624302</p>
+            <p class="mb-3"><span>Telp</span>: (62-271) 624301 / 624302</p>
+
+            <div class="d-flex map-link-box">
+              <img src="assets/images/contactUs/icon-map.png" height="20px" />
+              <a href="https://www.google.com/maps" class="ml-2 map-link">Find on Google Maps</a>
+            </div>
           </div>
       </div>
       

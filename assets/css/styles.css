@@ -324,6 +324,40 @@ body {
 .our-products .gallery-thumbs .swiper-slide-thumb-active {
   opacity: 1;
 }
+.contact-us .custom-width-contact {
+  width: 400px;
+}
+.contact-us form .form-group {
+  margin-bottom: 20px;
+}
+.contact-us form .form-group input, .contact-us form .form-group textarea {
+  border-radius: 0;
+}
+.contact-us form .btn-primary {
+  width: 121px;
+}
+.contact-us .locations p {
+  margin-bottom: 0;
+}
+.contact-us .locations .content-locations {
+  position: relative;
+  height: 309px;
+}
+.contact-us .locations .content-locations .locations-title {
+  font-family: Lato-Bold;
+}
+.contact-us .locations .content-locations span {
+  width: 45px;
+  float: left;
+}
+.contact-us .locations .content-locations .map-link-box {
+  position: absolute;
+  bottom: 22px;
+}
+.contact-us .locations .content-locations .map-link-box .map-link {
+  color: #fff;
+  text-decoration: underline;
+}
 .bg-blue {
   background: #a1cde6;
 }

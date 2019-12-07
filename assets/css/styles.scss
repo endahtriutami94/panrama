@@ -409,6 +409,56 @@ body {
   }
 }
 
+.contact-us {
+  .custom-width-contact {
+    width: 400px;
+  }
+  
+  form {
+    .form-group {
+      margin-bottom: 20px;
+
+      input, textarea {
+        border-radius: 0;
+      }
+    }
+
+    .btn-primary {
+      width: 121px;
+    }
+  }
+
+  .locations {
+    p {
+      margin-bottom: 0;
+    }
+
+    .content-locations {
+      position: relative;
+      height: 309px;
+
+      .locations-title {
+        font-family: Lato-Bold;
+      }
+
+      span {
+        width: 45px;
+        float: left;
+      }
+      
+      .map-link-box {
+        position: absolute;
+        bottom: 22px;
+
+        .map-link {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
 .bg-blue {
   background: #A1CDE6;
 }

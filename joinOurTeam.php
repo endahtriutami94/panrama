@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-md-6 pl-0"><div class="join-our-team-img"></div></div>
       <div class="col-md-5 p-5">
-        <h1 class="text-title">Join Our<br>Team</h1>
+        <h1 class="text-title">Join Our<br><span>Team</span></h1>
         <i class="underline"></i>
 
         <div class="content mt-3 mb-4">
@@ -17,8 +17,8 @@
   
   <div class="bg-grey">
     <div class="container py-5">
-      <h1 class="text-title">Openings</h1>
-      <i class="underline"></i>
+      <h1 class="text-title text-center">Openings</h1>
+      <i class="underline text-center my-0 mx-auto"></i>
 
       <div class="row my-5">
         <div class="col">

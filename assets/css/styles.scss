@@ -330,11 +330,25 @@ body {
 
   .csr-box {
     box-shadow: -1px 1px 8px -1px #707070;
-    min-width: 575px;
+    width: 575px;
+    height: 219px;
   }
 
   .bg-dark-blue {
-    min-width: 188px;
+    width: 307px;
+    height: 219px;
+  }
+  
+  ul {
+    list-style-image: url("../images/csr/dot.png");
+  }
+
+  .text-blue {
+    font-family: Lato-Bold;
+  }
+
+  .border {
+    border-color: #28406D !important;
   }
 }
 

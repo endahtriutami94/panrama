@@ -5,7 +5,7 @@
 
   <div class="container my-5">
     <h1 class="text-title text-center">Sustainability</h1>
-    <div class="text-center">
+    <div class="text-center my-5">
       Pan Rama recognizes it's responsibility in preserving our environment, and commits to do its part to ensure sustainable 
       practices across all our operations. We have well defined and measurable policies and practices including:
     </div>
@@ -14,10 +14,10 @@
       <div class="w-75">
         <div class="d-flex justify-content-center mb-3">
           <div class="d-flex justify-content-center align-items-center bg-dark-blue p-4">
-            <img src="assets/images/csr/icon1.png" width="50%" />
+            <img src="assets/images/csr/icon1.png" width="25%" />
           </div>
           <div class="csr-box p-4">
-            <p class="ml-3">ENERGY MANAGEMENT SYSTEM<p>
+            <p class="ml-3 text-blue">ENERGY MANAGEMENT SYSTEM</p>
             <ul>
               <li>Maximum LED lighting</li>
               <li>Efficient lighting, cooling & ventilation systems</li>
@@ -28,10 +28,10 @@
 
         <div class="d-flex justify-content-center mb-3">
           <div class="d-flex justify-content-center align-items-center bg-dark-blue p-4">
-            <img src="assets/images/csr/icon2.png" width="50%" />
+            <img src="assets/images/csr/icon2.png" width="25%" />
           </div>
           <div class="csr-box p-4">
-            <p class="ml-3">WASTE MANAGEMENT<p>
+            <p class="ml-3 text-blue">WASTE MANAGEMENT<p>
             <ul>
               <li>Segregation of waste</li>
               <li>Routing paper, plastic & fabric waste to verified recycling facilities</li>
@@ -42,10 +42,10 @@
         
         <div class="d-flex justify-content-center mb-3">
           <div class="d-flex justify-content-center align-items-center bg-dark-blue p-4">
-            <img src="assets/images/csr/icon3.png" width="50%" />
+            <img src="assets/images/csr/icon3.png" width="25%" />
           </div>
           <div class="csr-box p-4">
-            <p class="ml-3">GOING GREEN<p>
+            <p class="ml-3 text-blue">GOING GREEN<p>
             <ul>
               <li>“Save our Trees” drive, going paperles, printing only when necessary</li>
               <li>Recycle & reuse paper</li>
@@ -57,8 +57,8 @@
 
     </div>
 
-    <div class="text-center">
-      <h1 class="text-title">Community</h1>
+    <div class="text-center my-5">
+      <h1 class="text-title my-4">Community</h1>
       <p class="mb-4">Giving back to our employees and the community</p>
 
       <div class="d-flex">
@@ -77,12 +77,12 @@
       <div class="border my-3"></div>
 
       <div class="d-flex">
-        <div class="d-flex flex-column mr-4">
+        <div class="d-flex flex-column mr-4 mb-5">
           <img src="assets/images/csr/comunity5.png" width="100%" />
           <img src="assets/images/csr/comunity6.png" width="100%" />
         </div>
 
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-column mb-5">
           <img src="assets/images/csr/comunity7.png" width="100%" />
           <img src="assets/images/csr/comunity8.png" width="100%" />
         </div>

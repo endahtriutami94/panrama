@@ -37,25 +37,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav flex-lg-row justify-content-lg-around align-items-lg-center text-lg-center mr-auto">
         <li class="nav-item w-lg-item-96 active">
-          <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="about.php">About Us</a>
+          <a class="nav-link" href="about.html">About Us</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="ourFactories.php">Our Factories</a>
+          <a class="nav-link" href="ourFactories.html">Our Factories</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="ourProducts.php">Our Products</a>
+          <a class="nav-link" href="ourProducts.html">Our Products</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="csr.php">CSR</a>
+          <a class="nav-link" href="csr.html">CSR</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="joinOurTeam.php">Join Our Team</a>
+          <a class="nav-link" href="joinOurTeam.html">Join Our Team</a>
         </li>
         <li class="nav-item w-lg-item-96">
-          <a class="nav-link" href="contactUs.php">Contact Us</a>
+          <a class="nav-link" href="contactUs.html">Contact Us</a>
         </li>
       </ul>
     </div>

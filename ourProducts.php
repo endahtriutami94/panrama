@@ -93,7 +93,7 @@
 
     <div class="mb-4 mt-5">
       <h1 class="text-title text-center mb-4">Dresses</h1>
-      <div class="swiper-container gallery-top">
+      <div class="swiper-container gallery-top swiper-top-1">
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-slide-active" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
@@ -109,7 +109,7 @@
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
       </div>
-      <div class="swiper-container gallery-thumbs">
+      <div class="swiper-container gallery-thumbs swiper-thumbs-1">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
@@ -126,7 +126,7 @@
 
     <div class="my-4">
       <h1 class="text-title text-center mb-4">Cut & Sew Knit</h1>
-      <div class="swiper-container gallery-top">
+      <div class="swiper-container gallery-top swiper-top-2">
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-slide-active" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
@@ -142,7 +142,7 @@
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
       </div>
-      <div class="swiper-container gallery-thumbs">
+      <div class="swiper-container gallery-thumbs swiper-thumbs-2">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
@@ -159,7 +159,7 @@
 
     <div class="my-4">
       <h1 class="text-title text-center mb-4">Blouses, Pants & Skirts</h1>
-      <div class="swiper-container gallery-top">
+      <div class="swiper-container gallery-top swiper-top-3">
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-slide-active" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
@@ -175,7 +175,7 @@
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
       </div>
-      <div class="swiper-container gallery-thumbs">
+      <div class="swiper-container gallery-thumbs swiper-thumbs-3">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
@@ -192,7 +192,7 @@
     
     <div class="mt-4 mb-5">
       <h1 class="text-title text-center mb-4">Jumpsuits</h1>
-      <div class="swiper-container gallery-top">
+      <div class="swiper-container gallery-top swiper-top-4">
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-slide-active" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
@@ -208,7 +208,7 @@
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
       </div>
-      <div class="swiper-container gallery-thumbs">
+      <div class="swiper-container gallery-thumbs swiper-thumbs-4">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
           <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>

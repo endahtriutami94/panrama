@@ -41,22 +41,78 @@
       dynamicBullets: true,
     },
   });
-  var galleryThumbs = new Swiper('.gallery-thumbs', {
+
+  var galleryThumbs1 = new Swiper('.swiper-thumbs-1', {
     spaceBetween: 10,
     slidesPerView: 4,
     freeMode: true,
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
   });
-  var galleryTop = new Swiper('.gallery-top', {
+  var swiperTop1 = new Swiper('.swiper-top-1', {
     spaceBetween: 10,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
     thumbs: {
-      swiper: galleryThumbs
+      swiper: galleryThumbs1
     }
   });
+
+  var galleryThumbs2 = new Swiper('.swiper-thumbs-2', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+  });
+  var swiperTop2 = new Swiper('.swiper-top-2', {
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+      swiper: galleryThumbs2
+    }
+  });
+
+  var galleryThumbs3 = new Swiper('.swiper-thumbs-3', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+  });
+  var swiperTop4 = new Swiper('.swiper-top-3', {
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+      swiper: galleryThumbs3
+    }
+  });
+
+  var galleryThumbs4 = new Swiper('.swiper-thumbs-4', {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+  });
+  var swiperTop4 = new Swiper('.swiper-top-4', {
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    thumbs: {
+      swiper: galleryThumbs4
+    }
+  });
+
 </script>
 </html>

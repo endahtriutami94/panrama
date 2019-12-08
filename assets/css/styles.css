@@ -189,6 +189,7 @@ body {
   margin: 0;
 }
 .counting .icon-desc p:first-child {
+  display: inline;
   color: #22477b;
   font-size: 40px;
   font-family: Lato-Black;
@@ -197,6 +198,11 @@ body {
   color: #000;
   font-size: 20px;
   font-family: Lato-Bold;
+}
+.counting .icon-desc span {
+  color: #22477b;
+  font-size: 40px;
+  font-family: Lato-Black;
 }
 .banner-about {
   display: block;

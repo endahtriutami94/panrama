@@ -224,6 +224,7 @@ body {
       margin: 0;
 
       &:first-child {
+        display: inline;
         color: #22477B;
         font-size: 40px;
         font-family: Lato-Black;
@@ -234,6 +235,12 @@ body {
         font-size: 20px;
         font-family: Lato-Bold;
       }
+    }
+    
+    span {
+      color: #22477B;
+      font-size: 40px;
+      font-family: Lato-Black;
     }
   }
 }

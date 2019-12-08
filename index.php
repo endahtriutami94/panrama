@@ -1,5 +1,18 @@
   <?php include('component/header.php') ?>
-  
+  <script>
+    jQuery(document).ready(function($) {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000,
+        // offset: 70,
+        // beginAt: 100,
+        formatter: function (n) {
+          return n.replace(/,/g, '.');
+        }
+      });
+    });
+  </script>
+
   <div class="home">
     <!-- start slider banner -->
     <div class="swiper-container">
@@ -119,7 +132,7 @@
           <div class="col-md-3 pb-3 pb-lg-0">
             <div class="icon ic-years-business"></div>
             <div class="icon-desc">
-              <p class="count">35</p>
+              <p class="counter">35</p><span>+</span>
               <p>Years in Business</p>
             </div>
           </div>
@@ -127,7 +140,7 @@
           <div class="col-md-3 pb-3 pb-lg-0">
             <div class="icon ic-sewing-machines"></div>
             <div class="icon-desc">
-              <p class="count">900</p>
+              <p class="counter">900</p><span>+</span>
               <p>Sewing Machines</p>
             </div>
           </div>
@@ -135,7 +148,7 @@
           <div class="col-md-3 pb-3 pb-lg-0">
             <div class="icon ic-employes"></div>
             <div class="icon-desc">
-              <p class="count">1800</p>
+              <p class="counter">1.800</p>
               <p>Employees</p>
             </div>
           </div>
@@ -143,7 +156,7 @@
           <div class="col-md-3">
             <div class="icon ic-capacity"></div>
             <div class="icon-desc">
-              <p class="count">350000</p>
+              <p class="counter">350.000</p><span>+</span>
               <p>Monthly Capacity</p>
             </div>
           </div>
@@ -275,55 +288,8 @@
     <!-- End Get in Touch -->
   </div>
   
-
-  <script>
+  <script src="./assets/js/jquery.waypoints.min.js"></script>
+  <script src="./assets/js/jquery.counterup.min.js"></script>
   
-  function doCounting() {
-    $('.count').each(function() {
-      var $this = $(this);
-      jQuery({Counter: 0}).animate({Counter: $this.text()}, {
-        duration: 1500,
-        easing: 'swing',
-        step: function() {
-            var num = Math.ceil(this.Counter).toString();
-            if(Number(num) > 999){
-              while (/(\d+)(\d{3})/.test(num)) {
-                num = num.replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
-              }
-            }
-          $this.text(num+'+');
-        }
-      });
-    });
-    // $('.count').each(function() {
-    //   var $this = $(this);
-    //   console.log('$this.text()===: ', $this.text());
-      
-    //   jQuery({Counter: 0}).animate({Counter: $this.text()}, {
-    //     duration: 1500,
-    //     easing: 'swing',
-    //     step: function() {
-    //       var num = Math.ceil(this.Counter).toString();
-    //       if(Number(num) > 999){
-    //         while (/(\d+)(\d{3})/.test(num)) {
-    //           num = num.replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
-    //         }
-    //       }
-    //       $this.text(num);
-    //     }
-    //   });
-    // });
-  }
-  
-  // $(window).scroll(function() {
-  //   var offset = $(".counting").offset().top;
-  //   console.log('$(window).scrollTop()===: ', $(window).scrollTop());
-  //   console.log('offset===: ', offset);
-    
-  //   if ($(window).scrollTop() <= offset) {
-      doCounting();
-  //   }
-  // });
-</script>
 <?php include('component/footer.php') ?>
   

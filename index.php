@@ -1,21 +1,15 @@
   <?php include('component/header.php') ?>
   
-  <div class="home mt-5">
+  <div class="home">
     <!-- start slider banner -->
-    <div class="swiper-container gallery-top">
+    <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide swiper-slide-active" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
-        <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
+        <div class="swiper-slide"><img src="assets/images/banner-home.png" width="100%"/></div>
+        <div class="swiper-slide"><img src="assets/images/banner-home.png" width="100%"/></div>
+        <div class="swiper-slide"><img src="assets/images/banner-home.png" width="100%"/></div>
       </div>
-      <!-- Add Arrows -->
-      <div class="swiper-button-next swiper-button-white"></div>
-      <div class="swiper-button-prev swiper-button-white"></div>
-    </div>
-    <div class="swiper-container gallery-thumbs">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
-        <div class="swiper-slide" style="background-image:url(./assets/images/ourProducts/img1.png)"></div>
-      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
     </div>
     <!-- end slider banner -->
 
@@ -283,6 +277,7 @@
   
 
   <script>
+  
   function doCounting() {
     $('.count').each(function() {
       var $this = $(this);

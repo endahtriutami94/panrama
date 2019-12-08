@@ -1,6 +1,6 @@
 <?php include('component/header.php') ?>
 
-<div class="csr mt-5">
+<div class="csr">
   <div class="banner-csr">
     <div class="container d-flex align-items-center">
       <div class="ml-md-auto w-25 pb-3 pt-5 mr-5">

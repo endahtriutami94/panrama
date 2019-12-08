@@ -152,32 +152,29 @@ body {
 }
 
 .home {
+  margin-top: 94px;
+
   .swiper-container {
     width: 100%;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100%;
   }
   .swiper-slide {
-    background-size: cover;
-    background-position: center;
-  }
-  .gallery-top {
-    height: 546px; 
-  }
-  .gallery-thumbs {
-    box-sizing: border-box;
-    padding: 10px 0;
-
-    .swiper-slide {
-      width: 25%;
-      height: 100%;
-      opacity: 0.4;
-    }
-
-    .swiper-slide-thumb-active {
-      opacity: 1;
-    }
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
   }
 }
 
@@ -250,6 +247,8 @@ body {
 }
 
 .about-us-box {
+  margin-top: 94px;
+
   .border-box {
     box-shadow: 1px 2px 5px -1px #707070;
   }
@@ -278,6 +277,8 @@ body {
 }
 
 .join-our-team {
+  margin-top: 94px;
+
   .form-group {
     margin-bottom: 1.2rem;
   }
@@ -316,6 +317,8 @@ body {
 }
 
 .our-factories {
+  margin-top: 94px;
+
   .banner-our-factories {
     display: block;
     background-repeat: no-repeat;
@@ -328,6 +331,21 @@ body {
   .video-box {
     width: calc(100% - 591px);
     height: 389px;
+
+    .videoWrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 
   .count {
@@ -349,6 +367,8 @@ body {
 }
 
 .csr {
+  margin-top: 94px;
+
   .banner-csr {
     display: block;
     background-repeat: no-repeat;
@@ -383,6 +403,8 @@ body {
 }
 
 .our-products {
+  margin-top: 94px;
+
   .banner-our-products {
     display: block;
     background-repeat: no-repeat;
@@ -441,6 +463,8 @@ body {
 }
 
 .contact-us {
+  margin-top: 94px;
+
   .custom-width-contact {
     width: 400px;
   }

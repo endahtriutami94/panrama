@@ -5,8 +5,7 @@
   <div class="container my-5">
     <div class="d-flex">
       <div class="mr-5 video-box">
-      <!-- <iframe width="100%" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
-        <img src="assets/images/ourFactories/video1.png" width="100%" height="100%" />
+        <iframe width="560" height="390" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="d-flex flex-column">
         <div class="d-flex bg-dark-blue align-items-center p-4 mb-3 count">

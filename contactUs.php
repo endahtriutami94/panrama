@@ -1,6 +1,6 @@
 <?php include('component/header.php') ?>
 
-<div class="contact-us container mt-5">
+<div class="contact-us container">
   <div class="d-flex align-items-center my-5">
     <div class="mr-5"><img src="assets/images/contactUs/img1.png" width="631px" height="537px" /></div>
 

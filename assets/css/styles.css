@@ -334,9 +334,9 @@ body {
 }
 .csr .full-box .sustainability-box {
   flex-direction: column;
+  box-shadow: -1px 1px 8px -1px #707070;
 }
 .csr .full-box .sustainability-box .csr-box {
-  box-shadow: -1px 1px 8px -1px #707070;
   width: 575px;
   height: 219px;
 }

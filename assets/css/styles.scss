@@ -402,17 +402,29 @@ body {
     height: 314px;
   }
 
-  .csr-box {
-    box-shadow: -1px 1px 8px -1px #707070;
-    width: 575px;
-    height: 219px;
+  .full-box {
+    width: 75%;
+
+    .sustainability-box {
+      flex-direction: column;
+  
+      .csr-box {
+        box-shadow: -1px 1px 8px -1px #707070;
+        width: 575px;
+        height: 219px;
+      }
+    
+      .bg-dark-blue {
+        width: 307px;
+        height: 219px;
+      }
+    }
   }
 
-  .bg-dark-blue {
-    width: 307px;
-    height: 219px;
+  .community-img {
+    flex-direction: column;
   }
-  
+
   ul {
     list-style-image: url("../images/csr/dot.png");
   }
@@ -605,6 +617,23 @@ body {
 
     .gallery-top {
       height: 200px;
+    }
+  }
+
+  .csr {
+    .full-box {
+      width: 100%;
+
+      .sustainability-box {
+        .bg-dark-blue {
+          width: 100%;
+        }
+  
+        .csr-box {
+          width: 100%;
+          height: 100%;
+        }
+      } 
     }
   }
 }

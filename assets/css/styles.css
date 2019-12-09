@@ -329,14 +329,23 @@ body {
   background-position: -350px;
   height: 314px;
 }
-.csr .csr-box {
+.csr .full-box {
+  width: 75%;
+}
+.csr .full-box .sustainability-box {
+  flex-direction: column;
+}
+.csr .full-box .sustainability-box .csr-box {
   box-shadow: -1px 1px 8px -1px #707070;
   width: 575px;
   height: 219px;
 }
-.csr .bg-dark-blue {
+.csr .full-box .sustainability-box .bg-dark-blue {
   width: 307px;
   height: 219px;
+}
+.csr .community-img {
+  flex-direction: column;
 }
 .csr ul {
   list-style-image: url("../images/csr/dot.png");
@@ -485,8 +494,17 @@ body {
   .our-products .swiper-container {
     height: 100px;
  }
-
- .our-products .gallery-top {
-  height: 200px;
-}
+  .our-products .gallery-top {
+    height: 200px;
+ }
+  .csr .full-box {
+    width: 100%;
+ }
+  .csr .full-box .sustainability-box .bg-dark-blue {
+    width: 100%;
+ }
+  .csr .full-box .sustainability-box .csr-box {
+    width: 100%;
+    height: 100%;
+ }
 }

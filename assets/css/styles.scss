@@ -262,16 +262,30 @@ body {
 
   .border-box {
     box-shadow: 1px 2px 5px -1px #707070;
+
+    &:hover {
+      box-shadow: 4px 4px 15px -2px #707070;
+    }
   }
 
   .content {
     font-family: Lato;
   }
 
-  .directors-box {
-    p {
-      &:nth-child(2) {
-        font-family: Lato-Bold;
+  .directors-box-about {
+    flex-direction: column;
+
+    .directors-box {
+      margin-bottom: 1rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      p {
+        &:nth-child(2) {
+          font-family: Lato-Bold;
+        }
       }
     }
   }

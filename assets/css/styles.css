@@ -220,10 +220,22 @@ body {
 .about-us-box .border-box {
   box-shadow: 1px 2px 5px -1px #707070;
 }
+.about-us-box .border-box:hover {
+  box-shadow: 4px 4px 15px -2px #707070;
+}
 .about-us-box .content {
   font-family: Lato;
 }
-.about-us-box .directors-box p:nth-child(2) {
+.about-us-box .directors-box-about {
+  flex-direction: column;
+}
+.about-us-box .directors-box-about .directors-box {
+  margin-bottom: 1rem;
+}
+.about-us-box .directors-box-about .directors-box:last-child {
+  margin-bottom: 0;
+}
+.about-us-box .directors-box-about .directors-box p:nth-child(2) {
   font-family: Lato-Bold;
 }
 .about-us-box .top img {

@@ -530,4 +530,7 @@ body {
     position: unset;
     bottom: unset;
  }
+  .our-factories .custom-width-factories {
+    width: 100%;
+ }
 }

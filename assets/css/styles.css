@@ -416,6 +416,9 @@ body {
 .contact-us {
   margin-top: 94px;
 }
+.contact-us .contact-us-form-box {
+  flex-direction: column;
+}
 .contact-us .custom-width-contact {
   width: 400px;
 }
@@ -430,6 +433,9 @@ body {
 }
 .contact-us .locations p {
   margin-bottom: 0;
+}
+.contact-us .locations .bg-dark-blue {
+  flex-direction: row;
 }
 .contact-us .locations .content-locations {
   position: relative;
@@ -509,5 +515,19 @@ body {
   .csr .full-box .sustainability-box .csr-box {
     width: 100%;
     height: 100%;
+ }
+  .contact-us .contact-us-form-box img {
+    width: 100%;
+    height: 100%;
+ }
+  .contact-us .contact-us-form-box .custom-width-contact {
+    width: 100%;
+ }
+  .contact-us .locations .content-locations {
+    height: 100%;
+ }
+  .contact-us .locations .content-locations .map-link-box {
+    position: unset;
+    bottom: unset;
  }
 }

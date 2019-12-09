@@ -509,6 +509,10 @@ body {
 .contact-us {
   margin-top: 94px;
 
+  .contact-us-form-box {
+    flex-direction: column;
+  }
+
   .custom-width-contact {
     width: 400px;
   }
@@ -530,6 +534,10 @@ body {
   .locations {
     p {
       margin-bottom: 0;
+    }
+
+    .bg-dark-blue {
+      flex-direction: row;
     }
 
     .content-locations {
@@ -638,6 +646,30 @@ body {
           height: 100%;
         }
       } 
+    }
+  }
+
+  .contact-us {
+    .contact-us-form-box {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .custom-width-contact {
+        width: 100%;
+      }
+    }
+
+    .locations {
+      .content-locations {
+        height: 100%;
+
+        .map-link-box {
+          position: unset;
+          bottom: unset;
+        }
+      }
     }
   }
 }

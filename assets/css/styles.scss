@@ -176,6 +176,10 @@ body {
     -webkit-align-items: center;
     align-items: center;
   }
+
+  .our-factories-home, .get-in-touch-home {
+    flex-direction: column;
+  }
 }
 
 .about-us {
@@ -569,5 +573,11 @@ body {
 @media (min-width: 992px) {
   .w-lg-item-96 {
     width: 96px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) { 
+  .about-us {
+    height: 320px;
   }
 }

@@ -312,6 +312,10 @@ body {
     border-radius: 0;
   }
 
+  .join-form {
+    flex-direction: column;
+  }
+
   .join-our-team-img {
     display: block;
     background-repeat: no-repeat;

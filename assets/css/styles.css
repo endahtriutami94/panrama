@@ -253,6 +253,9 @@ body {
 .join-our-team .form-control {
   border-radius: 0;
 }
+.join-our-team .join-form {
+  flex-direction: column;
+}
 .join-our-team .join-our-team-img {
   display: block;
   background-repeat: no-repeat;

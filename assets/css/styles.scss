@@ -28,7 +28,15 @@ body {
     }
   }
 
-  .navbar-brand, .navbar-nav .nav-item .nav-link, .navbar-toggler {
+  .navbar-brand {
+    color: #fff;
+
+    img {
+      width: 50%;
+    }
+  }
+
+  .navbar-nav .nav-item .nav-link, .navbar-toggler {
     color: #fff;
   }
 
@@ -618,6 +626,13 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) { 
+  .header {
+    .navbar-brand {
+      img { 
+        width: 100%;
+      }
+    }
+  }
   .about-us {
     height: 320px;
   }

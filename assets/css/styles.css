@@ -22,7 +22,13 @@ body {
 .header.navbar-dark .navbar-toggler:focus {
   outline: unset;
 }
-.header .navbar-brand, .header .navbar-nav .nav-item .nav-link, .header .navbar-toggler {
+.header .navbar-brand {
+  color: #fff;
+}
+.header .navbar-brand img {
+  width: 50%;
+}
+.header .navbar-nav .nav-item .nav-link, .header .navbar-toggler {
   color: #fff;
 }
 .header .navbar-nav {
@@ -497,6 +503,9 @@ body {
  }
 }
 @media (min-width: 320px) and (max-width: 767.98px) {
+  .header .navbar-brand img {
+    width: 100%;
+ }
   .about-us {
     height: 320px;
  }

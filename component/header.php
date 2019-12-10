@@ -27,7 +27,7 @@
 <!-- start nav menus -->
 <nav class="navbar fixed-top navbar-dark header">
   <div class="container">
-    <a class="navbar-brand p-0" href="#">
+    <a class="navbar-brand w-75 w-md-100 p-0" href="#">
     <img src="assets/images/logopanarama.png" width="50%">
     </a>
     <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

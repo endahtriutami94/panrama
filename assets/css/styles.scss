@@ -160,7 +160,7 @@ body {
 }
 
 .home {
-  margin-top: 94px;
+  margin-top: 101px;
 
   .swiper-container {
     width: 100%;
@@ -275,10 +275,11 @@ body {
   background-image: url('../images/about/banner_about.png');
   background-size: 100% 100%;
   height: 840px;
+  opacity: .5;
 }
 
 .about-us-box {
-  margin-top: 94px;
+  margin-top: 101px;
 
   .border-box {
     box-shadow: 1px 2px 5px -1px #707070;
@@ -322,7 +323,7 @@ body {
 }
 
 .join-our-team {
-  margin-top: 94px;
+  margin-top: 101px;
 
   .form-group {
     margin-bottom: 1.2rem;
@@ -343,6 +344,7 @@ body {
     background-size: auto;
     background-position: -92px;
     height: 443px;
+    opacity: .5;
   }
 
   .custom-file-upload {
@@ -366,15 +368,37 @@ body {
 }
 
 .our-factories {
-  margin-top: 94px;
+  margin-top: 101px;
 
   .banner-our-factories {
-    display: block;
-    background-repeat: no-repeat;
-    background-image: url('../images/ourFactories/img1.png');
-    background-size: auto;
-    background-position: -350px;
+    position: relative;
+    z-index: 1;
     height: 314px;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      top: 0; 
+      left: 0;
+      width: 100%; 
+      opacity: .5; 
+      z-index: -1;
+      display: block;
+      background-repeat: no-repeat;
+      background-image: url('../images/ourFactories/img1.jpg');
+      background-size: auto;
+      background-position: -350px;
+      height: 314px;
+    }
+    
+
+    .text-title {
+      color: #23497e;
+    }
+
+    .underline {
+      border-color: #23497e;
+    }
   }
 
   .video-box {
@@ -415,15 +439,28 @@ body {
 }
 
 .csr {
-  margin-top: 94px;
+  margin-top: 101px;
 
   .banner-csr {
-    display: block;
-    background-repeat: no-repeat;
-    background-image: url('../images/csr/img1.png');
-    background-size: auto;
-    background-position: -350px;
+    position: relative;
+    z-index: 1;
     height: 314px;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      top: 0; 
+      left: 0;
+      width: 100%; 
+      opacity: .5; 
+      z-index: -1;
+      display: block;
+      background-repeat: no-repeat;
+      background-image: url('../images/csr/img1.png');
+      background-size: auto;
+      background-position: -350px;
+      height: 314px;
+    }
   }
 
   .full-box {
@@ -463,15 +500,28 @@ body {
 }
 
 .our-products {
-  margin-top: 94px;
+  margin-top: 101px;
 
   .banner-our-products {
-    display: block;
-    background-repeat: no-repeat;
-    background-image: url('../images/ourProducts/banner-our-products.png');
-    background-size: auto;
-    background-position: -350px;
+    position: relative;
+    z-index: 1;
     height: 314px;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      top: 0; 
+      left: 0;
+      width: 100%; 
+      opacity: .5; 
+      z-index: -1;
+      display: block;
+      background-repeat: no-repeat;
+      background-image: url('../images/ourProducts/banner-our-products.png');
+      background-size: auto;
+      background-position: -350px;
+      height: 314px;
+    }
   }
 
   .our-products-contents {
@@ -527,7 +577,7 @@ body {
 }
 
 .contact-us {
-  margin-top: 94px;
+  margin-top: 101px;
 
   .contact-us-form-box {
     flex-direction: column;
@@ -639,17 +689,28 @@ body {
 
 @media (min-width: 320px) and (max-width: 767.98px) { 
   .header {
+    // >.container {
+    //   height: 45px;
+    // }
+
     .navbar-brand {
       img { 
         width: 100%;
       }
     }
   }
+  
+  .home {
+    margin-top: 61px;
+  }
+
   .about-us {
     height: 320px;
   }
 
   .our-products {
+    margin-top: 61px;
+
     .swiper-container {
       height: 100px;
     }
@@ -660,6 +721,8 @@ body {
   }
 
   .csr {
+    margin-top: 61px;
+
     .full-box {
       width: 100%;
 
@@ -677,6 +740,8 @@ body {
   }
 
   .contact-us {
+    margin-top: 61px;
+
     .contact-us-form-box {
       img {
         width: 100%;
@@ -701,6 +766,8 @@ body {
   }
 
   .our-factories {
+    margin-top: 61px;
+
     .custom-width-factories {
       width: 100%;
     }

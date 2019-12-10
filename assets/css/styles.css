@@ -132,7 +132,7 @@ body {
   color: #22477b;
 }
 .home {
-  margin-top: 94px;
+  margin-top: 101px;
 }
 .home .swiper-container {
   width: 100%;
@@ -229,9 +229,10 @@ body {
   background-image: url('../images/about/banner_about.png');
   background-size: 100% 100%;
   height: 840px;
+  opacity: 0.5;
 }
 .about-us-box {
-  margin-top: 94px;
+  margin-top: 101px;
 }
 .about-us-box .border-box {
   box-shadow: 1px 2px 5px -1px #707070;
@@ -261,7 +262,7 @@ body {
   min-height: 112px;
 }
 .join-our-team {
-  margin-top: 94px;
+  margin-top: 101px;
 }
 .join-our-team .form-group {
   margin-bottom: 1.2rem;
@@ -279,6 +280,7 @@ body {
   background-size: auto;
   background-position: -92px;
   height: 443px;
+  opacity: 0.5;
 }
 .join-our-team .custom-file-upload {
   border: 1px solid #95989a;
@@ -297,15 +299,33 @@ body {
   width: 121px;
 }
 .our-factories {
-  margin-top: 94px;
+  margin-top: 101px;
 }
 .our-factories .banner-our-factories {
+  position: relative;
+  z-index: 1;
+  height: 314px;
+}
+.our-factories .banner-our-factories::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
   display: block;
   background-repeat: no-repeat;
-  background-image: url('../images/ourFactories/img1.png');
+  background-image: url('../images/ourFactories/img1.jpg');
   background-size: auto;
   background-position: -350px;
   height: 314px;
+}
+.our-factories .banner-our-factories .text-title {
+  color: #23497e;
+}
+.our-factories .banner-our-factories .underline {
+  border-color: #23497e;
 }
 .our-factories .video-box {
   width: calc(100% - 591px);
@@ -338,9 +358,21 @@ body {
   width: 446px;
 }
 .csr {
-  margin-top: 94px;
+  margin-top: 101px;
 }
 .csr .banner-csr {
+  position: relative;
+  z-index: 1;
+  height: 314px;
+}
+.csr .banner-csr::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
   display: block;
   background-repeat: no-repeat;
   background-image: url('../images/csr/img1.png');
@@ -376,9 +408,21 @@ body {
   border-color: #28406d !important;
 }
 .our-products {
-  margin-top: 94px;
+  margin-top: 101px;
 }
 .our-products .banner-our-products {
+  position: relative;
+  z-index: 1;
+  height: 314px;
+}
+.our-products .banner-our-products::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
   display: block;
   background-repeat: no-repeat;
   background-image: url('../images/ourProducts/banner-our-products.png');
@@ -430,7 +474,7 @@ body {
   opacity: 1;
 }
 .contact-us {
-  margin-top: 94px;
+  margin-top: 101px;
 }
 .contact-us .contact-us-form-box {
   flex-direction: column;
@@ -516,14 +560,23 @@ body {
   .header .navbar-brand img {
     width: 100%;
  }
+  .home {
+    margin-top: 61px;
+ }
   .about-us {
     height: 320px;
+ }
+  .our-products {
+    margin-top: 61px;
  }
   .our-products .swiper-container {
     height: 100px;
  }
   .our-products .gallery-top {
     height: 200px;
+ }
+  .csr {
+    margin-top: 61px;
  }
   .csr .full-box {
     width: 100%;
@@ -534,6 +587,9 @@ body {
   .csr .full-box .sustainability-box .csr-box {
     width: 100%;
     height: 100%;
+ }
+  .contact-us {
+    margin-top: 61px;
  }
   .contact-us .contact-us-form-box img {
     width: 100%;
@@ -548,6 +604,9 @@ body {
   .contact-us .locations .content-locations .map-link-box {
     position: unset;
     bottom: unset;
+ }
+  .our-factories {
+    margin-top: 61px;
  }
   .our-factories .custom-width-factories {
     width: 100%;

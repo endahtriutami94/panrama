@@ -80,6 +80,10 @@
         <div class="swiper-slide"><img src="assets/images/banner-home.png" width="100%"/></div>
         <div class="swiper-slide"><img src="assets/images/banner-home.png" width="100%"/></div>
       </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
     </div>
@@ -389,82 +393,17 @@
   var swiper = new Swiper('.swiper-container', {
     pagination: {
       el: '.swiper-pagination',
-      dynamicBullets: true,
+      clickable: true,
+      renderBullet: function (index, className) {
+        return '<span class="' + className + '"></span>';
+      },
     },
-  });
-
-  var galleryThumbs1 = new Swiper('.swiper-thumbs-1', {
-    spaceBetween: 10,
-    slidesPerView: 4,
-    freeMode: true,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
-  });
-  var swiperTop1 = new Swiper('.swiper-top-1', {
-    spaceBetween: 10,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    },
-    thumbs: {
-      swiper: galleryThumbs1
     }
+    
   });
-
-  var galleryThumbs2 = new Swiper('.swiper-thumbs-2', {
-    spaceBetween: 10,
-    slidesPerView: 4,
-    freeMode: true,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
-  });
-  var swiperTop2 = new Swiper('.swiper-top-2', {
-    spaceBetween: 10,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    thumbs: {
-      swiper: galleryThumbs2
-    }
-  });
-
-  var galleryThumbs3 = new Swiper('.swiper-thumbs-3', {
-    spaceBetween: 10,
-    slidesPerView: 4,
-    freeMode: true,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
-  });
-  var swiperTop4 = new Swiper('.swiper-top-3', {
-    spaceBetween: 10,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    thumbs: {
-      swiper: galleryThumbs3
-    }
-  });
-
-  var galleryThumbs4 = new Swiper('.swiper-thumbs-4', {
-    spaceBetween: 10,
-    slidesPerView: 4,
-    freeMode: true,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
-  });
-  var swiperTop4 = new Swiper('.swiper-top-4', {
-    spaceBetween: 10,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    thumbs: {
-      swiper: galleryThumbs4
-    }
-  });
-
 </script>
 </html>
 

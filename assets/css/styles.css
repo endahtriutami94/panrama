@@ -508,6 +508,14 @@ body {
 .contact-us .locations p {
   margin-bottom: 0;
 }
+.contact-us .locations .map-box {
+  width: 100%;
+  min-height: 260px;
+}
+.contact-us .locations .map-box > iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
 .contact-us .locations .bg-dark-blue {
   flex-direction: row;
 }

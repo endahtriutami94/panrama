@@ -585,6 +585,9 @@ body {
   .home {
     margin-top: 61px;
  }
+  .banner-about {
+    height: 320px;
+ }
   .about-us {
     height: 320px;
  }

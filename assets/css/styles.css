@@ -398,6 +398,20 @@ body {
 .csr .community-img {
   flex-direction: column;
 }
+.csr .community-img .bg-img-blue {
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url('../images/csr/comunity6.png');
+  background-size: contain;
+  color: white;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.csr .community-img .bg-img-blue ul {
+  list-style-image: url(../images/csr/dot-white.png);
+}
 .csr ul {
   list-style-image: url("../images/csr/dot.png");
 }

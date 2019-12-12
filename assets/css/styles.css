@@ -13,6 +13,9 @@
 body {
   font-family: Lato;
 }
+body .close:focus {
+  outline: unset;
+}
 .header {
   background-color: #23497e;
 }

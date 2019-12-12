@@ -15,6 +15,10 @@
 
 body {
   font-family: Lato;
+
+  .close:focus {
+    outline: unset;
+  }
 }
 
 .header {
